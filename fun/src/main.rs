@@ -1,8 +1,8 @@
 fn main() {
     println!("Hello, world!");
-    fun(5);
+    println!("{}", fun());
 }
 
-fn fun(x: i32) {
-    println!("{}", x);
+fn fun() -> i32 {
+    5
 }
